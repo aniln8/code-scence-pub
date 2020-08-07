@@ -3,7 +3,7 @@ terraform {
    organization = "antest-wp"
 
    workspaces {
-     name = "code-scence-pub/antest"
+     name = "code-scence-pub"
    }
  }
 }
