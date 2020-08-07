@@ -40,6 +40,6 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 Please review [our security policy](https://github.com/laravel/framework/security/policy) on how to report security vulnerabilities.
 
-## License
+## License file
 
 The Laravel framework is open-sourced software licensed under the [MIT license](LICENSE.md).
