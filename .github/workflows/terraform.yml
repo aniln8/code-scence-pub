@@ -16,6 +16,6 @@ jobs:
         rsync -Prtgovze "ssh -o StrictHostKeyChecking=no" --no-perms --no-owner --no-group $GITHUB_WORKSPACE/ ${{ secrets.PROD_USER }}@${{ secrets.PROD_HOST }}:${{ secrets.PROD_PATH }}/
       #  ssh -o StrictHostKeyChecking=no ${{ secrets.PROD_USER }}@${{ secrets.PROD_HOST }} "cd ${{ secrets.PROD_PATH }} && ls -al"
       #  rsync -Prtgovze "ssh -o StrictHostKeyChecking=no" --no-perms --no-owner --no-group --delete-after $GITHUB_WORKSPACE ${{ secrets.PROD_USER }}@${{ secrets.PROD_HOST }}:${{ secrets.PROD_PATH }}/
-      #  ssh -o StrictHostKeyChecking=no ${{ secrets.PROD_USER }}@${{ secrets.PROD_HOST }} "cd ${{ secrets.PROD_PATH }} && ls -al"
+      #   ssh -o StrictHostKeyChecking=no ${{ secrets.PROD_USER }}@${{ secrets.PROD_HOST }} "cd ${{ secrets.PROD_PATH }} && ls -al"
       env:
         CI: true
